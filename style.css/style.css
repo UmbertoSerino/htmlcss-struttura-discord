@@ -5,9 +5,6 @@
     border: 1px solid red;
 }
 
-/* Container-main */
-
-
 /* Section-1 */
 
 header{
@@ -32,4 +29,18 @@ nav ul {
     display: flex;
     width: 60%;
     list-style-type: none;
+}
+
+/* Section-2 */
+
+div.section-header-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+div.section-header-bottom > section{
+    height: 300px;
+    width: 70%;
+    background-color: ;
+
 }
