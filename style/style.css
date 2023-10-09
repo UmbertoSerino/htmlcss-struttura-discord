@@ -53,7 +53,7 @@ section.container-publicity.flex div {
     border: 2px dashed black;
 }
 
-/* SECTION MAIN */
+/* SECTION MAIN - section 1*/
 
 section.container-info-1,
 section.container-info-2,
@@ -83,4 +83,19 @@ div.container-newspapers {
     height: 100%;
     width: 30%;
     background-color: rgb(238, 175, 222);
+}
+
+/* Section 2 */
+
+section.container-publicity-2.flex{
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+section.container-publicity-2.flex div{
+    height: 80%;
+    width: 50%;
+    background-color: green;
 }
