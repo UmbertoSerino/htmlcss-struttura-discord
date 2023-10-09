@@ -52,7 +52,7 @@ main div.box-container{
     width: 80%;
     display: flex;
     height: 300px;
-    margin: 0 auto;
+    margin: 1.5rem auto;
 }
 
 main div.box-container section.box-1{
@@ -67,4 +67,13 @@ main div.box-container section.box-2{
     background-color: rgb(236, 185, 217);
 }
 
+section.principal-box{
+    background-color: lightgray;
+}
 
+.large-container{
+    height: calc(298px * 2);
+    width: 80%;
+    margin: 0 auto;
+    background-color: green;
+}
