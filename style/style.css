@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .flex{
@@ -18,7 +17,6 @@ header > section.container-header{
     align-items: center;
     justify-content: center;
     background-color: rgb(108, 200, 243);
-
 }
 
 div.container-nav.flex{
@@ -28,15 +26,16 @@ div.container-nav.flex{
     justify-content: space-between;
     align-items: center;
     border: 2px dashed black;
-
 }
 
 ul{
     list-style-type: none;
+    border: 2px dashed black;
+
 }
 
 li{
-    padding: .5rem;
+    padding: 0 1rem;
 }
 
 section.container-publicity{
@@ -49,7 +48,7 @@ section.container-publicity{
 section.container-publicity.flex div {
     height: 80%;
     width: 40%; 
-    background-color: rgb(248, 13, 178);
+    background-color: rgb(238, 175, 222);
     border: 2px dashed black;
 }
 
@@ -57,32 +56,40 @@ section.container-publicity.flex div {
 
 section.container-info-1,
 section.container-info-2,
-section.container-info-3{
+section.container-info-3,
+section.container-columns{
     height: 30rem;
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 
 section.container-info-2{
     background-color: lightgray;
+    
 }
 
 div.container-newspapers {
     height: 80%;
     width: 50%;
+
 }
 
 .box-1{
     height: 100%;
     width: 70%;
     background-color: rgb(57, 126, 255);
+    border: 2px dashed black;
+
 }
 
 .box-2{
     height: 100%;
     width: 30%;
     background-color: rgb(238, 175, 222);
+    border: 2px dashed black;
+
 }
 
 /* Section 2 */
@@ -98,4 +105,55 @@ section.container-publicity-2.flex div{
     height: 80%;
     width: 50%;
     background-color: green;
+    border: 2px dashed black;
+
+}
+
+/* Section navigator */
+
+section.container-columns.flex{
+    background-color: rgba(0, 0, 0, 0.808);
+    border-bottom: 1px white solid;
+}
+
+div.container-newspapers .colum-1{
+    background-color: rgb(223, 141, 94);
+    height: 100%;
+    width: 70%;
+    border: 2px dashed black;
+
+}
+
+.colum-2{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(84, 155, 111);
+    border: 2px dashed white;
+
+}
+
+/* Section Footer */
+
+footer > section.container-footer{
+height: 5rem;
+width: 100%;
+align-items: flex-end;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.808);
+}
+
+div.container-footer-nav.flex{
+    height: 2rem;
+    width: 50%;
+    background-color: rgb(40, 80, 55);
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 1.5rem 0;
+}
+
+div.container-footer-nav.flex div{
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(234, 134, 238);
+
 }
